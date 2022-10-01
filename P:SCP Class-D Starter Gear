@@ -1,0 +1,7 @@
+//Note that this doesnt work on your roblox game. It only works on Project SCP's function hook system.
+// Assuming the player just spawned.
+if (Plr.Class == "Class-D") {
+    GiveItem(Plr, "Class-D Keycard");
+    GiveItem(Plr, "Medkit");
+    GiveItem(Plr, "Flashlight");
+}
